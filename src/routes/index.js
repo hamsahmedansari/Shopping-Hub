@@ -10,10 +10,12 @@ import Checkout from "../screens/Checkout";
 import Compare from "../screens/Compare";
 import Wishlist from "../screens/Wishlist";
 import MyAccount from "../screens/MyAccount";
+import Contact from "../screens/Contact";
 
 const Routing = () => {
   return (
     <Switch>
+      <Route path="/contact" exact component={Contact} />
       <Route path="/profile" exact component={MyAccount} />
       <Route path="/wishlist" exact component={Wishlist} />
       <Route path="/compare" exact component={Compare} />
