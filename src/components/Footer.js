@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -9,9 +10,9 @@ const Footer = () => {
             <div className="row">
               <div className="col-lg-3 col-md-3 col-12 col-sm-6">
                 <div className="footer-widget mb-30">
-                  <a href="#">
+                  <Link to="/">
                     <img src="assets/images/logo/logo-1.png" alt="logo" />
-                  </a>
+                  </Link>
                   <div className="footer-social">
                     <span>Follow us:</span>
                     <ul>
@@ -47,16 +48,16 @@ const Footer = () => {
                   <div className="footer-list">
                     <ul>
                       <li>
-                        <a href="cart.html">Shopping Cat</a>
+                        <Link to="/cart">Shopping Cat</Link>
                       </li>
                       <li>
-                        <a href="wishlist.html">WIshlist</a>
+                        <Link to="/wishlist">Wishlist</Link>
                       </li>
                       <li>
-                        <a href="checkout.html">Chekout</a>
+                        <Link to="/checkout">Checkout</Link>
                       </li>
                       <li>
-                        <a href="contact.html">Support</a>
+                        <Link to="/contact">Support</Link>
                       </li>
                     </ul>
                   </div>
@@ -70,16 +71,16 @@ const Footer = () => {
                   <div className="footer-list">
                     <ul>
                       <li>
-                        <a href="cart.html">About</a>
+                        <Link to="/about">About</Link>
                       </li>
                       <li>
-                        <a href="wishlist.html">Products</a>
+                        <Link to="/shop">Products</Link>
                       </li>
                       <li>
-                        <a href="checkout.html">Terms and conditions</a>
+                        <Link to="/about">Terms and conditions</Link>
                       </li>
                       <li>
-                        <a href="contact.html">Help Center</a>
+                        <Link to="/contact">Help Center</Link>
                       </li>
                     </ul>
                   </div>
@@ -96,11 +97,6 @@ const Footer = () => {
                       <form
                         id="mc-embedded-subscribe-form"
                         className="validate subscribe-form-style"
-                        noValidate=""
-                        target="_blank"
-                        name="mc-embedded-subscribe-form"
-                        method="post"
-                        action="http://devitems.us11.list-manage.com/subscribe/post?u=6bbb9b6f5827bd842d9640c82&amp;id=05d85f18ef"
                       >
                         <div id="mc_embed_signup_scroll" className="mc-form">
                           <input
@@ -141,7 +137,9 @@ const Footer = () => {
           <div className="container">
             <div className="copyright text-center">
               <p>
-                Copyright © <a href="#">Daxone</a>. All Right Reserved
+                Copyright ©
+                <a href="https://hamsahmedansari.github.io">HamsAhmedAnsari</a>.
+                All Right Reserved
               </p>
             </div>
           </div>
