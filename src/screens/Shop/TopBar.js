@@ -1,20 +1,20 @@
 import React from "react";
 const TopBar = () => {
   return (
-    <div class="shop-topbar-wrapper">
-      <div class="shop-topbar-left">
-        <div class="view-mode nav">
-          <a class="active" href="#shop-1" data-toggle="tab">
-            <i class="la la-th" />
+    <div className="shop-topbar-wrapper">
+      <div className="shop-topbar-left">
+        <div className="view-mode nav">
+          <a className="active" href="#shop-1" data-toggle="tab">
+            <i className="la la-th" />
           </a>
           <a href="#shop-2" data-toggle="tab">
-            <i class="la la-list-ul" />
+            <i className="la la-list-ul" />
           </a>
         </div>
         <p>Showing 1 - 20 of 30 results </p>
       </div>
-      <div class="product-sorting-wrapper">
-        <div class="product-shorting shorting-style">
+      <div className="product-sorting-wrapper">
+        <div className="product-shorting shorting-style">
           <label>View:</label>
           <select>
             <option value=""> 20</option>
@@ -22,7 +22,7 @@ const TopBar = () => {
             <option value=""> 30</option>
           </select>
         </div>
-        <div class="product-show shorting-style">
+        <div className="product-show shorting-style">
           <label>Sort by:</label>
           <select>
             <option value="">Default</option>

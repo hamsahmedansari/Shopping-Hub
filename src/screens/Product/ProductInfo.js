@@ -2,36 +2,36 @@ import React from "react";
 
 const ProductInfo = () => {
   return (
-    <div class="col-lg-6 col-md-6">
-      <div class="product-details-content pro-details-content-modify">
+    <div className="col-lg-6 col-md-6">
+      <div className="product-details-content pro-details-content-modify">
         <span>Life Style</span>
         <h2>LaaVista Depro, FX 829 v1</h2>
-        <div class="product-ratting-review">
-          <div class="product-ratting">
-            <i class="la la-star" />
-            <i class="la la-star" />
-            <i class="la la-star" />
-            <i class="la la-star" />
-            <i class="la la-star-half-o" />
+        <div className="product-ratting-review">
+          <div className="product-ratting">
+            <i className="la la-star" />
+            <i className="la la-star" />
+            <i className="la la-star" />
+            <i className="la la-star" />
+            <i className="la la-star-half-o" />
           </div>
-          <div class="product-review">
+          <div className="product-review">
             <span>40+ Reviews</span>
           </div>
         </div>
-        <div class="pro-details-color-wrap">
+        <div className="pro-details-color-wrap">
           <span>Color:</span>
-          <div class="pro-details-color-content">
+          <div className="pro-details-color-content">
             <ul>
-              <li class="green" />
-              <li class="yellow" />
-              <li class="red" />
-              <li class="blue" />
+              <li className="green" />
+              <li className="yellow" />
+              <li className="red" />
+              <li className="blue" />
             </ul>
           </div>
         </div>
-        <div class="pro-details-size">
+        <div className="pro-details-size">
           <span>Size:</span>
-          <div class="pro-details-size-content">
+          <div className="pro-details-size-content">
             <ul>
               <li>
                 <a href="#">s</a>
@@ -48,38 +48,38 @@ const ProductInfo = () => {
             </ul>
           </div>
         </div>
-        <div class="pro-details-price-wrap">
-          <div class="product-price">
+        <div className="pro-details-price-wrap">
+          <div className="product-price">
             <span>$210.00</span>
-            <span class="old">$230.00</span>
+            <span className="old">$230.00</span>
           </div>
-          <div class="dec-rang">
+          <div className="dec-rang">
             <span>- 30%</span>
           </div>
         </div>
-        <div class="pro-details-quality">
-          <div class="cart-plus-minus">
+        <div className="pro-details-quality">
+          <div className="cart-plus-minus">
             <input
-              class="cart-plus-minus-box"
+              className="cart-plus-minus-box"
               type="text"
               name="qtybutton"
               value="02"
             />
           </div>
         </div>
-        <div class="pro-details-compare-wishlist">
-          <div class="pro-details-compare">
+        <div className="pro-details-compare-wishlist">
+          <div className="pro-details-compare">
             <a title="Add To Compare" href="#">
-              <i class="la la-retweet" /> Compare
+              <i className="la la-retweet" /> Compare
             </a>
           </div>
-          <div class="pro-details-wishlist">
+          <div className="pro-details-wishlist">
             <a title="Add To Wishlist" href="#">
-              <i class="la la-heart-o" /> Add to wish list
+              <i className="la la-heart-o" /> Add to wish list
             </a>
           </div>
         </div>
-        <div class="pro-details-buy-now btn-hover btn-hover-radious">
+        <div className="pro-details-buy-now btn-hover btn-hover-radious">
           <a href="#">Add To Cart</a>
         </div>
       </div>

@@ -2,19 +2,19 @@ import React from "react";
 
 const EstimateTax = () => {
   return (
-    <div class="col-lg-4 col-md-6">
-      <div class="cart-tax">
-        <div class="title-wrap">
-          <h4 class="cart-bottom-title section-bg-gray">
+    <div className="col-lg-4 col-md-6">
+      <div className="cart-tax">
+        <div className="title-wrap">
+          <h4 className="cart-bottom-title section-bg-gray">
             Estimate Shipping And Tax
           </h4>
         </div>
-        <div class="tax-wrapper">
+        <div className="tax-wrapper">
           <p>Enter your destination to get a shipping estimate.</p>
-          <div class="tax-select-wrapper">
-            <div class="tax-select">
+          <div className="tax-select-wrapper">
+            <div className="tax-select">
               <label>* Country</label>
-              <select class="email s-email s-wid">
+              <select className="email s-email s-wid">
                 <option>Bangladesh</option>
                 <option>Albania</option>
                 <option>Åland Islands</option>
@@ -22,9 +22,9 @@ const EstimateTax = () => {
                 <option>Belgium</option>
               </select>
             </div>
-            <div class="tax-select">
+            <div className="tax-select">
               <label>* Region / State</label>
-              <select class="email s-email s-wid">
+              <select className="email s-email s-wid">
                 <option>Bangladesh</option>
                 <option>Albania</option>
                 <option>Åland Islands</option>
@@ -32,11 +32,11 @@ const EstimateTax = () => {
                 <option>Belgium</option>
               </select>
             </div>
-            <div class="tax-select">
+            <div className="tax-select">
               <label>* Zip/Postal Code</label>
               <input type="text" />
             </div>
-            <button class="cart-btn-2" type="submit">
+            <button className="cart-btn-2" type="submit">
               Get A Quote
             </button>
           </div>

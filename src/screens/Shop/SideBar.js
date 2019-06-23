@@ -9,7 +9,7 @@ import FilterByTag from "./FilterByTag";
 
 const SideBar = () => {
   return (
-    <div class="sidebar-wrapper">
+    <div className="sidebar-wrapper">
       <Search />
       <SortByCategory />
       <FilterByPrice />

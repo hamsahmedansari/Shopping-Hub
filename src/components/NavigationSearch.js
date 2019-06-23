@@ -2,24 +2,24 @@ import React from "react";
 
 const NavigationSearch = () => {
   return (
-    <div class="main-search-active">
-      <div class="sidebar-search-icon">
-        <button class="search-close">
-          <span class="la la-close" />
+    <div className="main-search-active">
+      <div className="sidebar-search-icon">
+        <button className="search-close">
+          <span className="la la-close" />
         </button>
       </div>
-      <div class="sidebar-search-input">
+      <div className="sidebar-search-input">
         <form>
-          <div class="form-search">
+          <div className="form-search">
             <input
               id="search"
-              class="input-text"
+              className="input-text"
               value=""
               placeholder="Search Now"
               type="search"
             />
             <button>
-              <i class="la la-search" />
+              <i className="la la-search" />
             </button>
           </div>
         </form>

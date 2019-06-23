@@ -2,97 +2,97 @@ import React from "react";
 
 const Cart = () => {
   return (
-    <div class="cart-wrap common-style ml-35">
-      <button class="cart-active cart-3">
-        <span class="mini-cart-price">$240</span>
-        <i class="la la-shopping-cart" />
+    <div className="cart-wrap common-style ml-35">
+      <button className="cart-active cart-3">
+        <span className="mini-cart-price">$240</span>
+        <i className="la la-shopping-cart" />
       </button>
-      <div class="shopping-cart-content">
-        <div class="shopping-cart-top">
+      <div className="shopping-cart-content">
+        <div className="shopping-cart-top">
           <h4>Your Cart</h4>
-          <a class="cart-close" href="#">
-            <i class="la la-close" />
+          <a className="cart-close" href="#">
+            <i className="la la-close" />
           </a>
         </div>
         <ul>
-          <li class="single-shopping-cart">
-            <div class="shopping-cart-img">
+          <li className="single-shopping-cart">
+            <div className="shopping-cart-img">
               <a href="#">
                 <img alt="" src="assets/images/cart/cart-1.jpg" />
               </a>
-              <div class="item-close">
+              <div className="item-close">
                 <a href="#">
-                  <i class="sli sli-close" />
+                  <i className="sli sli-close" />
                 </a>
               </div>
             </div>
-            <div class="shopping-cart-title">
+            <div className="shopping-cart-title">
               <h4>
                 <a href="#">Golden Easy Spot Chair.</a>
               </h4>
               <span>$99.00</span>
             </div>
-            <div class="shopping-cart-delete">
+            <div className="shopping-cart-delete">
               <a href="#">
-                <i class="la la-trash" />
+                <i className="la la-trash" />
               </a>
             </div>
           </li>
-          <li class="single-shopping-cart">
-            <div class="shopping-cart-img">
+          <li className="single-shopping-cart">
+            <div className="shopping-cart-img">
               <a href="#">
                 <img alt="" src="assets/images/cart/cart-2.jpg" />
               </a>
-              <div class="item-close">
+              <div className="item-close">
                 <a href="#">
-                  <i class="sli sli-close" />
+                  <i className="sli sli-close" />
                 </a>
               </div>
             </div>
-            <div class="shopping-cart-title">
+            <div className="shopping-cart-title">
               <h4>
                 <a href="#">Golden Easy Spot Chair.</a>
               </h4>
               <span>$99.00</span>
             </div>
-            <div class="shopping-cart-delete">
+            <div className="shopping-cart-delete">
               <a href="#">
-                <i class="la la-trash" />
+                <i className="la la-trash" />
               </a>
             </div>
           </li>
-          <li class="single-shopping-cart">
-            <div class="shopping-cart-img">
+          <li className="single-shopping-cart">
+            <div className="shopping-cart-img">
               <a href="#">
                 <img alt="" src="assets/images/cart/cart-3.jpg" />
               </a>
-              <div class="item-close">
+              <div className="item-close">
                 <a href="#">
-                  <i class="sli sli-close" />
+                  <i className="sli sli-close" />
                 </a>
               </div>
             </div>
-            <div class="shopping-cart-title">
+            <div className="shopping-cart-title">
               <h4>
                 <a href="#">Golden Easy Spot Chair.</a>
               </h4>
               <span>$99.00</span>
             </div>
-            <div class="shopping-cart-delete">
+            <div className="shopping-cart-delete">
               <a href="#">
-                <i class="la la-trash" />
+                <i className="la la-trash" />
               </a>
             </div>
           </li>
         </ul>
-        <div class="shopping-cart-bottom">
-          <div class="shopping-cart-total">
+        <div className="shopping-cart-bottom">
+          <div className="shopping-cart-total">
             <h4>
-              Subtotal <span class="shop-total">$290.00</span>
+              Subtotal <span className="shop-total">$290.00</span>
             </h4>
           </div>
-          <div class="shopping-cart-btn btn-hover default-btn text-center">
-            <a class="black-color" href="checkout.html">
+          <div className="shopping-cart-btn btn-hover default-btn text-center">
+            <a className="black-color" href="checkout.html">
               Continue to Chackout
             </a>
           </div>

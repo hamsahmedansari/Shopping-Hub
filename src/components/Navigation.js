@@ -4,9 +4,9 @@ const Navigation = () => {
   return (
     <nav>
       <ul>
-        <li class="angle-shape">
+        <li className="angle-shape">
           <a href="index.html">Home</a>
-          <ul class="submenu">
+          <ul className="submenu">
             <li>
               <a href="index.html">Home version 1 </a>
             </li>
@@ -39,11 +39,11 @@ const Navigation = () => {
             </li>
           </ul>
         </li>
-        <li class="angle-shape">
+        <li className="angle-shape">
           <a href="shop.html">Shop </a>
-          <ul class="mega-menu">
+          <ul className="mega-menu">
             <li>
-              <a class="menu-title" href="#">
+              <a className="menu-title" href="#">
                 Shop Layout
               </a>
               <ul>
@@ -65,7 +65,7 @@ const Navigation = () => {
               </ul>
             </li>
             <li>
-              <a class="menu-title" href="#">
+              <a className="menu-title" href="#">
                 Shop Layout
               </a>
               <ul>
@@ -86,7 +86,7 @@ const Navigation = () => {
               </ul>
             </li>
             <li>
-              <a class="menu-title" href="#">
+              <a className="menu-title" href="#">
                 Product Details
               </a>
               <ul>
@@ -108,7 +108,7 @@ const Navigation = () => {
               </ul>
             </li>
             <li>
-              <a class="menu-title" href="#">
+              <a className="menu-title" href="#">
                 Product Details
               </a>
               <ul>
@@ -131,9 +131,9 @@ const Navigation = () => {
         <li>
           <a href="shop.html">Mens</a>
         </li>
-        <li class="angle-shape">
+        <li className="angle-shape">
           <a href="#">Pages</a>
-          <ul class="submenu">
+          <ul className="submenu">
             <li>
               <a href="about-us.html">about us </a>
             </li>
@@ -160,9 +160,9 @@ const Navigation = () => {
             </li>
           </ul>
         </li>
-        <li class="angle-shape">
+        <li className="angle-shape">
           <a href="blog.html">Blog</a>
-          <ul class="submenu">
+          <ul className="submenu">
             <li>
               <a href="blog.html">standard style </a>
             </li>

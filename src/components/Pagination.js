@@ -1,11 +1,11 @@
 import React from "react";
 const Pagination = () => {
   return (
-    <div class="pagination-style text-center">
+    <div className="pagination-style text-center">
       <ul>
         <li>
-          <a class="prev" href="#">
-            <i class="la la-angle-left" />
+          <a className="prev" href="#">
+            <i className="la la-angle-left" />
           </a>
         </li>
         <li>
@@ -15,7 +15,7 @@ const Pagination = () => {
           <a href="#">02</a>
         </li>
         <li>
-          <a class="active" href="#">
+          <a className="active" href="#">
             03
           </a>
         </li>
@@ -29,8 +29,8 @@ const Pagination = () => {
           <a href="#">06</a>
         </li>
         <li>
-          <a class="next" href="#">
-            <i class="la la-angle-right" />
+          <a className="next" href="#">
+            <i className="la la-angle-right" />
           </a>
         </li>
       </ul>

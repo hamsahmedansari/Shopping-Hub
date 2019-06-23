@@ -15,25 +15,25 @@ class Cart extends Component {
     return (
       <React.Fragment>
         <Breadcrumb />
-        <div class="cart-main-area pt-85 pb-90">
-          <div class="container">
-            <h3 class="cart-page-title">Your cart items</h3>
-            <div class="row">
-              <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+        <div className="cart-main-area pt-85 pb-90">
+          <div className="container">
+            <h3 className="cart-page-title">Your cart items</h3>
+            <div className="row">
+              <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                 <form action="#">
-                  <div class="table-content table-responsive cart-table-content">
+                  <div className="table-content table-responsive cart-table-content">
                     <table>
                       <TableHeader />
                       <TableBody />
                     </table>
                   </div>
-                  <div class="row">
-                    <div class="col-lg-12">
-                      <div class="cart-shiping-update-wrapper">
-                        <div class="cart-shiping-update">
+                  <div className="row">
+                    <div className="col-lg-12">
+                      <div className="cart-shiping-update-wrapper">
+                        <div className="cart-shiping-update">
                           <a href="#">Continue Shopping</a>
                         </div>
-                        <div class="cart-clear">
+                        <div className="cart-clear">
                           <button>Update Shopping Cart</button>
                           <a href="#">Clear Shopping Cart</a>
                         </div>
@@ -41,7 +41,7 @@ class Cart extends Component {
                     </div>
                   </div>
                 </form>
-                <div class="row">
+                <div className="row">
                   <EstimateTax />
                   <Coupon />
                   <Total />

@@ -2,18 +2,18 @@ import React from "react";
 
 const ProductSlider = () => {
   return (
-    <div class="col-lg-6 col-md-6">
-      <div class="product-details-img">
-        <div class="zoompro-border zoompro-span">
+    <div className="col-lg-6 col-md-6">
+      <div className="product-details-img">
+        <div className="zoompro-border zoompro-span">
           <img
-            class="zoompro"
+            className="zoompro"
             src="assets/images/product-details/product-detalis-l1.jpg"
             data-zoom-image="assets/images/product-details/product-detalis-bl1.jpg"
             alt=""
           />{" "}
           <span>-29%</span>
         </div>
-        <div id="gallery" class="mt-20 product-dec-slider">
+        <div id="gallery" className="mt-20 product-dec-slider">
           <a
             data-image="assets/images/product-details/product-detalis-l1.jpg"
             data-zoom-image="assets/images/product-details/product-detalis-bl1.jpg"

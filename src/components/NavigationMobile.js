@@ -3,10 +3,10 @@ import React from "react";
 const NavigationMobile = () => {
   return (
     <nav>
-      <ul class="mobile-menu">
-        <li class="menu-item-has-children">
+      <ul className="mobile-menu">
+        <li className="menu-item-has-children">
           <a href="index.html">Home</a>
-          <ul class="dropdown">
+          <ul className="dropdown">
             <li>
               <a href="index.html">Home version 1 </a>
             </li>
@@ -39,12 +39,12 @@ const NavigationMobile = () => {
             </li>
           </ul>
         </li>
-        <li class="menu-item-has-children ">
+        <li className="menu-item-has-children ">
           <a href="#">shop</a>
-          <ul class="dropdown">
-            <li class="menu-item-has-children">
+          <ul className="dropdown">
+            <li className="menu-item-has-children">
               <a href="#">shop layout</a>
-              <ul class="dropdown">
+              <ul className="dropdown">
                 <li>
                   <a href="shop.html">standard grid style</a>
                 </li>
@@ -67,9 +67,9 @@ const NavigationMobile = () => {
                 </li>
               </ul>
             </li>
-            <li class="menu-item-has-children">
+            <li className="menu-item-has-children">
               <a href="#">shop list layout</a>
-              <ul class="dropdown">
+              <ul className="dropdown">
                 <li>
                   <a href="shop-list.html">list style</a>
                 </li>
@@ -81,9 +81,9 @@ const NavigationMobile = () => {
                 </li>
               </ul>
             </li>
-            <li class="menu-item-has-children">
+            <li className="menu-item-has-children">
               <a href="#">product details</a>
-              <ul class="dropdown">
+              <ul className="dropdown">
                 <li>
                   <a href="product-details.html">standard style</a>
                 </li>
@@ -115,9 +115,9 @@ const NavigationMobile = () => {
             </li>
           </ul>
         </li>
-        <li class="menu-item-has-children">
+        <li className="menu-item-has-children">
           <a href="#">Pages</a>
-          <ul class="dropdown">
+          <ul className="dropdown">
             <li>
               <a href="about-us.html">about us </a>
             </li>
@@ -144,9 +144,9 @@ const NavigationMobile = () => {
             </li>
           </ul>
         </li>
-        <li class="menu-item-has-children ">
+        <li className="menu-item-has-children ">
           <a href="#">Blog</a>
-          <ul class="dropdown">
+          <ul className="dropdown">
             <li>
               <a href="blog.html">standard style </a>
             </li>

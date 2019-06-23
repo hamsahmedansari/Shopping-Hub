@@ -2,9 +2,9 @@ import React from "react";
 
 const FilterByTag = () => {
   return (
-    <div class="sidebar-widget pt-40 mt-40 shop-sidebar-border">
-      <h4 class="sidebar-title">Popular Tags </h4>
-      <div class="sidebar-widget-tag mt-20">
+    <div className="sidebar-widget pt-40 mt-40 shop-sidebar-border">
+      <h4 className="sidebar-title">Popular Tags </h4>
+      <div className="sidebar-widget-tag mt-20">
         <ul>
           <li>
             <a href="#">Clothing</a>

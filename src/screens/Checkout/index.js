@@ -14,12 +14,12 @@ class Checkout extends Component {
     return (
       <React.Fragment>
         <Breadcrumb />
-        <div class="checkout-main-area pt-90 pb-90">
-          <div class="container">
+        <div className="checkout-main-area pt-90 pb-90">
+          <div className="container">
             <Login />
             <Coupon />
-            <div class="checkout-wrap pt-30">
-              <div class="row">
+            <div className="checkout-wrap pt-30">
+              <div className="row">
                 <Form />
                 <OrderDetail />
               </div>

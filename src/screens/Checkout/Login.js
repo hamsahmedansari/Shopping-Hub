@@ -2,31 +2,31 @@ import React from "react";
 
 const Login = () => {
   return (
-    <div class="customer-zone mb-20">
-      <p class="cart-page-title">
+    <div className="customer-zone mb-20">
+      <p className="cart-page-title">
         Returning customer?{" "}
-        <a class="checkout-click1" href="#">
+        <a className="checkout-click1" href="#">
           Click here to login
         </a>
       </p>
-      <div class="checkout-login-info">
+      <div className="checkout-login-info">
         <p>
           If you have shopped with us before, please enter your details in the
           boxes below. If you are a new customer, please proceed to the Billing
           & Shipping section.
         </p>
         <form action="#">
-          <div class="row">
-            <div class="col-lg-6 col-md-6">
-              <div class="sin-checkout-login">
+          <div className="row">
+            <div className="col-lg-6 col-md-6">
+              <div className="sin-checkout-login">
                 <label>
                   Username or email address <span>*</span>
                 </label>
                 <input type="text" name="user-name" />
               </div>
             </div>
-            <div class="col-lg-6 col-md-6">
-              <div class="sin-checkout-login">
+            <div className="col-lg-6 col-md-6">
+              <div className="sin-checkout-login">
                 <label>
                   Passwords <span>*</span>
                 </label>
@@ -34,20 +34,20 @@ const Login = () => {
               </div>
             </div>
           </div>
-          <div class="button-remember-wrap">
-            <button class="button" type="submit">
+          <div className="button-remember-wrap">
+            <button className="button" type="submit">
               Login
             </button>
-            <div class="checkout-login-toggle-btn">
+            <div className="checkout-login-toggle-btn">
               <input type="checkbox" />
               <label>Remember me</label>
             </div>
           </div>
-          <div class="lost-password">
+          <div className="lost-password">
             <a href="#">Lost your password?</a>
           </div>
         </form>
-        <div class="checkout-login-social">
+        <div className="checkout-login-social">
           <span>Login with:</span>
           <ul>
             <li>

@@ -12,12 +12,12 @@ class MyAccount extends Component {
     return (
       <React.Fragment>
         <Breadcrumb />
-        <div class="my-account-wrapper pt-100 pb-100">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="myaccount-page-wrapper">
-                  <div class="row">
+        <div className="my-account-wrapper pt-100 pb-100">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="myaccount-page-wrapper">
+                  <div className="row">
                     <Aside />
                     <Section />
                   </div>

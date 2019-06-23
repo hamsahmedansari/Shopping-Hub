@@ -6,13 +6,13 @@ class Search extends Component {
   }
   render() {
     return (
-      <div class="sidebar-widget">
-        <h4 class="sidebar-title">Search </h4>
-        <div class="sidebar-search mb-40 mt-20">
-          <form class="sidebar-search-form" action="#">
+      <div className="sidebar-widget">
+        <h4 className="sidebar-title">Search </h4>
+        <div className="sidebar-search mb-40 mt-20">
+          <form className="sidebar-search-form" action="#">
             <input type="text" placeholder="Search here..." />
             <button>
-              <i class="la la-search" />
+              <i className="la la-search" />
             </button>
           </form>
         </div>

@@ -7,14 +7,14 @@ const ShopProducts = () => {
   return (
     <React.Fragment>
       <TopBar />
-      <div class="shop-bottom-area">
-        <div class="tab-content jump">
-          <div id="shop-1" class="tab-pane active">
-            <div class="row">
+      <div className="shop-bottom-area">
+        <div className="tab-content jump">
+          <div id="shop-1" className="tab-pane active">
+            <div className="row">
               <Product />
             </div>
           </div>
-          <div id="shop-2" class="tab-pane">
+          <div id="shop-2" className="tab-pane">
             <ProductList />
           </div>
           <Pagination />

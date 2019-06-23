@@ -15,16 +15,16 @@ class Product extends Component {
     return (
       <React.Fragment>
         <Breadcrumb />
-        <div class="product-details-area pt-90 pb-90">
-          <div class="container">
-            <div class="row">
+        <div className="product-details-area pt-90 pb-90">
+          <div className="container">
+            <div className="row">
               <ProductSlider />
               <ProductInfo />
             </div>
           </div>
         </div>
-        <div class="description-review-wrapper pb-90">
-          <div class="container">
+        <div className="description-review-wrapper pb-90">
+          <div className="container">
             <ProductDetails />
           </div>
         </div>

@@ -2,9 +2,9 @@ import React from "react";
 
 const Login = () => {
   return (
-    <div id="lg1" class="tab-pane active">
-      <div class="login-form-container">
-        <div class="login-register-form">
+    <div id="lg1" className="tab-pane active">
+      <div className="login-form-container">
+        <div className="login-register-form">
           <form action="#" method="post">
             <input type="text" name="user-name" placeholder="Username" />
             <input
@@ -12,8 +12,8 @@ const Login = () => {
               name="user-password"
               placeholder="Password"
             />
-            <div class="button-box">
-              <div class="login-toggle-btn">
+            <div className="button-box">
+              <div className="login-toggle-btn">
                 <input type="checkbox" />
                 <label>Remember me</label>
                 <a href="#">Forgot Password?</a>
