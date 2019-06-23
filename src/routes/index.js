@@ -6,10 +6,12 @@ import Shop from "../screens/Shop";
 import Product from "../screens/Product";
 import About from "../screens/About";
 import Cart from "../screens/Cart";
+import Checkout from "../screens/Checkout";
 
 const Routing = () => {
   return (
     <Switch>
+      <Route path="/checkout" exact component={Checkout} />
       <Route path="/cart" exact component={Cart} />
       <Route path="/about" exact component={About} />
       <Route path="/product" exact component={Product} />
