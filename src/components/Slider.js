@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Slider = props => {
   return (
@@ -28,12 +29,12 @@ const Slider = props => {
                     Collect from Daxone & get 30% Discount.
                   </p>
                   <div className="slider-btn-1 default-btn btn-hover">
-                    <a
+                    <Link
                       className="animated btn-color-theme btn-size-md btn-style-outline"
-                      href="product-details.html"
+                      to="/product"
                     >
                       SHOP NOW
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -64,12 +65,12 @@ const Slider = props => {
                     Collect from Daxone & get 30% Discount.
                   </p>
                   <div className="slider-btn-1 default-btn btn-hover">
-                    <a
+                    <Link
                       className="animated btn-color-theme btn-size-md btn-style-outline"
-                      href="product-details.html"
+                      to="/product"
                     >
                       SHOP NOW
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

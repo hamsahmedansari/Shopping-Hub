@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ProductArea = () => {
   return (
@@ -14,9 +15,9 @@ const ProductArea = () => {
         <div className="product-slider-active owl-carousel">
           <div className="product-wrap">
             <div className="product-img mb-15">
-              <a href="product-details.html">
+              <Link to="/product">
                 <img src="assets/images/product/pro-hm1-1.jpg" alt="product" />
-              </a>
+              </Link>
               <div className="product-action">
                 <a
                   data-toggle="modal"
@@ -37,7 +38,7 @@ const ProductArea = () => {
             <div className="product-content">
               <span>Chair</span>
               <h4>
-                <a href="product-details.html">Golden Easy Spot Chair.</a>
+                <Link to="/product">Golden Easy Spot Chair.</Link>
               </h4>
               <div className="price-addtocart">
                 <div className="product-price">
@@ -53,9 +54,9 @@ const ProductArea = () => {
           </div>
           <div className="product-wrap">
             <div className="product-img mb-15">
-              <a href="product-details.html">
+              <Link to="/product">
                 <img src="assets/images/product/pro-hm1-2.jpg" alt="product" />
-              </a>
+              </Link>
               <span className="price-dec">-30%</span>
               <div className="product-action">
                 <a
@@ -77,7 +78,7 @@ const ProductArea = () => {
             <div className="product-content">
               <span>Chair</span>
               <h4>
-                <a href="product-details.html">Golden Easy Spot Chair.</a>
+                <Link to="/product">Golden Easy Spot Chair.</Link>
               </h4>
               <div className="price-addtocart">
                 <div className="product-price">
@@ -94,9 +95,9 @@ const ProductArea = () => {
           </div>
           <div className="product-wrap">
             <div className="product-img mb-15">
-              <a href="product-details.html">
+              <Link to="/product">
                 <img src="assets/images/product/pro-hm1-3.jpg" alt="product" />
-              </a>
+              </Link>
               <span className="new-stock">
                 <span>
                   Stock <br />
@@ -123,7 +124,7 @@ const ProductArea = () => {
             <div className="product-content">
               <span>Chair</span>
               <h4>
-                <a href="product-details.html">Golden Easy Spot Chair.</a>
+                <Link to="/product">Golden Easy Spot Chair.</Link>
               </h4>
               <div className="price-addtocart">
                 <div className="product-price">
@@ -139,9 +140,9 @@ const ProductArea = () => {
           </div>
           <div className="product-wrap">
             <div className="product-img mb-15">
-              <a href="product-details.html">
+              <Link to="/product">
                 <img src="assets/images/product/pro-hm1-4.jpg" alt="product" />
-              </a>
+              </Link>
               <span className="price-dec font-dec">NEW</span>
               <div className="product-action">
                 <a
@@ -163,7 +164,7 @@ const ProductArea = () => {
             <div className="product-content">
               <span>Chair</span>
               <h4>
-                <a href="product-details.html">Golden Easy Spot Chair.</a>
+                <Link to="/product">Golden Easy Spot Chair.</Link>
               </h4>
               <div className="price-addtocart">
                 <div className="product-price">
@@ -180,9 +181,9 @@ const ProductArea = () => {
           </div>
           <div className="product-wrap">
             <div className="product-img mb-15">
-              <a href="product-details.html">
+              <Link to="/product">
                 <img src="assets/images/product/pro-hm1-2.jpg" alt="product" />
-              </a>
+              </Link>
               <span className="price-dec">-30%</span>
               <div className="product-action">
                 <a
@@ -204,7 +205,7 @@ const ProductArea = () => {
             <div className="product-content">
               <span>Chair</span>
               <h4>
-                <a href="product-details.html">Golden Easy Spot Chair.</a>
+                <Link to="/product">Golden Easy Spot Chair.</Link>
               </h4>
               <div className="price-addtocart">
                 <div className="product-price">

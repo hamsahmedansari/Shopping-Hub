@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -15,7 +16,7 @@ const Banner = () => {
                   Premium Home <br />
                   Decorator
                 </h2>
-                <a href="product-details.html">Learn More</a>
+                <Link to="/product">Learn More</Link>
               </div>
             </div>
           </div>
