@@ -1,14 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const NavigationMobile = () => {
   return (
     <nav>
       <ul className="mobile-menu">
         <li>
-          <a href="index.html">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li className="menu-item-has-children ">
-          <a href="#">shop</a>
+          <Link to="#">shop</Link>
           <ul className="dropdown">
             <li className="menu-item-has-children">
               <a href="#">shop layout</a>
@@ -84,10 +85,10 @@ const NavigationMobile = () => {
           </ul>
         </li>
         <li>
-          <a href="shop.html">About</a>
+          <Link to="/shop">About</Link>
         </li>
         <li>
-          <a href="contact.html">Contact us</a>
+          <Link to="/contact">Contact us</Link>
         </li>
       </ul>
     </nav>
