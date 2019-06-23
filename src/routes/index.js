@@ -7,10 +7,12 @@ import Product from "../screens/Product";
 import About from "../screens/About";
 import Cart from "../screens/Cart";
 import Checkout from "../screens/Checkout";
+import Compare from "../screens/Compare";
 
 const Routing = () => {
   return (
     <Switch>
+      <Route path="/compare" exact component={Compare} />
       <Route path="/checkout" exact component={Checkout} />
       <Route path="/cart" exact component={Cart} />
       <Route path="/about" exact component={About} />
