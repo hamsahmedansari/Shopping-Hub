@@ -11,10 +11,13 @@ import Compare from "../screens/Compare";
 import Wishlist from "../screens/Wishlist";
 import MyAccount from "../screens/MyAccount";
 import Contact from "../screens/Contact";
+import LoginRegister from "../screens/LoginRegister";
 
 const Routing = () => {
   return (
     <Switch>
+      <Route path="/login" exact component={LoginRegister} />
+      <Route path="/register" exact component={LoginRegister} />
       <Route path="/contact" exact component={Contact} />
       <Route path="/profile" exact component={MyAccount} />
       <Route path="/wishlist" exact component={Wishlist} />
