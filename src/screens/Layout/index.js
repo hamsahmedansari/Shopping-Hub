@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import Header from "../../components/Header.js";
-import Footer from "../../components/Footer.js";
-import Home from "./Home.js";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+
+import Routing from "../../routes/";
 class Layout extends Component {
   constructor(props) {
     super(props);
@@ -13,7 +14,7 @@ class Layout extends Component {
     return (
       <div className="main-wrapper">
         <Header />
-        <Home />
+        <Routing />
         <Footer />
       </div>
     );
