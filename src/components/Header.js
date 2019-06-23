@@ -31,14 +31,14 @@ const Header = props => {
               <div className="col-xl-3 col-lg-3">
                 <div className="header-right-wrap mt-10">
                   <div className="header-wishlist">
-                    <a href="wishlist.html">
+                    <Link to="/wishlist">
                       <i className="la la-heart-o" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="header-login ml-40">
-                    <a href="login-register.html">
+                    <Link to="/profile">
                       <i className="la la-user" />
-                    </a>
+                    </Link>
                   </div>
                   <Cart />
                   <div className="search-wrap common-style ml-25">
@@ -58,9 +58,9 @@ const Header = props => {
             <div className="row align-items-center">
               <div className="col-6">
                 <div className="mobile-logo">
-                  <a href="index.html">
+                  <Link to="index.html">
                     <img alt="" src="assets/images/logo/logo-1.png" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-6">

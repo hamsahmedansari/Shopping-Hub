@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom/";
 
 const Cart = () => {
   return (
@@ -92,9 +93,9 @@ const Cart = () => {
             </h4>
           </div>
           <div className="shopping-cart-btn btn-hover default-btn text-center">
-            <a className="black-color" href="checkout.html">
-              Continue to Chackout
-            </a>
+            <Link className="black-color" to="/checkout">
+              Continue to Checkout
+            </Link>
           </div>
         </div>
       </div>

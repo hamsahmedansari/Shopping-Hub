@@ -1,22 +1,26 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const NavigationMobileAccount = () => {
   return (
     <div className="mobile-curr-lang-wrap">
       <div className="single-mobile-curr-lang">
-        <a className="mobile-account-active" href="#">
+        <Link className="mobile-account-active" to="/profile">
           My Account <i className="la la-angle-down" />
-        </a>
+        </Link>
         <div className="lang-curr-dropdown account-dropdown-active">
           <ul>
             <li>
-              <a href="#">Login</a>
+              <Link to="/login">Login</Link>
             </li>
             <li>
-              <a href="#">Creat Account</a>
+              <Link to="/register">Creat Account</Link>
             </li>
             <li>
-              <a href="#">My Account</a>
+              <Link to="/profile">My Account</Link>
+            </li>
+            <li>
+              <Link to="/logout">Logout</Link>
             </li>
           </ul>
         </div>

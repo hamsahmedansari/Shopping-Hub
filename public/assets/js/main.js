@@ -972,6 +972,10 @@ $(document).ready(function(){
             scrollTarget: link.hash
         });
     });
+    $.smoothScroll({
+        offset: 0,
+        scrollTarget: "#top"
+    });
 
 })(jQuery);
 });
