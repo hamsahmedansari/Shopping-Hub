@@ -1,46 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
   return (
     <nav>
       <ul>
-        <li className="angle-shape">
-          <a href="index.html">Home</a>
-          <ul className="submenu">
-            <li>
-              <a href="index.html">Home version 1 </a>
-            </li>
-            <li>
-              <a href="index-2.html">Home version 2 </a>
-            </li>
-            <li>
-              <a href="index-3.html">Home version 3 </a>
-            </li>
-            <li>
-              <a href="index-4.html">Home version 4 </a>
-            </li>
-            <li>
-              <a href="index-5.html">Home version 5 </a>
-            </li>
-            <li>
-              <a href="index-6.html">Home version 6 </a>
-            </li>
-            <li>
-              <a href="index-7.html">Home version 7 </a>
-            </li>
-            <li>
-              <a href="index-8.html">Home version 8 </a>
-            </li>
-            <li>
-              <a href="index-9.html">Home version 9 </a>
-            </li>
-            <li>
-              <a href="index-10.html">Home version 10 </a>
-            </li>
-          </ul>
+        <li>
+          <Link to="/">Home</Link>
         </li>
         <li className="angle-shape">
-          <a href="shop.html">Shop </a>
+          <Link to="/shop">Shop </Link>
           <ul className="mega-menu">
             <li>
               <a className="menu-title" href="#">
@@ -129,56 +98,11 @@ const Navigation = () => {
           </ul>
         </li>
         <li>
-          <a href="shop.html">Mens</a>
+          <Link to="/about">About</Link>
         </li>
-        <li className="angle-shape">
-          <a href="#">Pages</a>
-          <ul className="submenu">
-            <li>
-              <a href="about-us.html">about us </a>
-            </li>
-            <li>
-              <a href="cart.html">cart page </a>
-            </li>
-            <li>
-              <a href="checkout.html">checkout </a>
-            </li>
-            <li>
-              <a href="compare.html">compare </a>
-            </li>
-            <li>
-              <a href="wishlist.html">wishlist </a>
-            </li>
-            <li>
-              <a href="my-account.html">my account </a>
-            </li>
-            <li>
-              <a href="contact.html">contact us </a>
-            </li>
-            <li>
-              <a href="login-register.html">login/register </a>
-            </li>
-          </ul>
-        </li>
-        <li className="angle-shape">
-          <a href="blog.html">Blog</a>
-          <ul className="submenu">
-            <li>
-              <a href="blog.html">standard style </a>
-            </li>
-            <li>
-              <a href="blog-2col.html">blog 2 column </a>
-            </li>
-            <li>
-              <a href="blog-sidebar.html">blog sidebar </a>
-            </li>
-            <li>
-              <a href="blog-details.html">blog details </a>
-            </li>
-          </ul>
-        </li>
+
         <li>
-          <a href="contact.html">Contact</a>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
     </nav>

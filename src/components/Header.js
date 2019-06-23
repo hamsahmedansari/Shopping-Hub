@@ -1,11 +1,15 @@
 import React from "react";
+
+import { Link } from "react-router-dom";
+
 import Cart from "./Cart";
 import Navigation from "./Navigation";
 import NavigationSearch from "./NavigationSearch";
 import CartMobile from "./CartMobile";
 import NavigationMobile from "./NavigationMobile";
+import NavigationMobileAccount from "./NavigationMobileAccount";
 
-const Header = () => {
+const Header = props => {
   return (
     <React.Fragment>
       <header className="header-area transparent-bar sticky-bar pt-10">
@@ -14,9 +18,9 @@ const Header = () => {
             <div className="row align-items-center">
               <div className="col-xl-2 col-lg-3">
                 <div className="logo">
-                  <a href="index.html">
+                  <Link to="/">
                     <img src="assets/images/logo/logo-1.png" alt="logo" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-xl-7 col-lg-6">
@@ -95,65 +99,7 @@ const Header = () => {
             </div>
             {/* <!-- mobile menu end --> */}
           </div>
-          <div className="mobile-curr-lang-wrap">
-            <div className="single-mobile-curr-lang">
-              <a className="mobile-language-active" href="#">
-                Language <i className="la la-angle-down" />
-              </a>
-              <div className="lang-curr-dropdown lang-dropdown-active">
-                <ul>
-                  <li>
-                    <a href="#">English (US)</a>
-                  </li>
-                  <li>
-                    <a href="#">English (UK)</a>
-                  </li>
-                  <li>
-                    <a href="#">Spanish</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="single-mobile-curr-lang">
-              <a className="mobile-currency-active" href="#">
-                Currency <i className="la la-angle-down" />
-              </a>
-              <div className="lang-curr-dropdown curr-dropdown-active">
-                <ul>
-                  <li>
-                    <a href="#">USD</a>
-                  </li>
-                  <li>
-                    <a href="#">EUR</a>
-                  </li>
-                  <li>
-                    <a href="#">Real</a>
-                  </li>
-                  <li>
-                    <a href="#">BDT</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="single-mobile-curr-lang">
-              <a className="mobile-account-active" href="#">
-                My Account <i className="la la-angle-down" />
-              </a>
-              <div className="lang-curr-dropdown account-dropdown-active">
-                <ul>
-                  <li>
-                    <a href="#">Login</a>
-                  </li>
-                  <li>
-                    <a href="#">Creat Account</a>
-                  </li>
-                  <li>
-                    <a href="#">My Account</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+          <NavigationMobileAccount />
           <div className="mobile-social-wrap">
             <a className="facebook" href="#">
               <i className="ti-facebook" />
