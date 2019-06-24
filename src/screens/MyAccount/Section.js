@@ -10,9 +10,167 @@ const Section = () => {
                                                 <div className="welcome">
                                                     <p>Hello, <strong>Alex Tuntuni</strong> (If Not <strong>Tuntuni !</strong><a href="login-register.html" className="logout"> Logout</a>)</p>
                                                 </div>
-
                                                 <p className="mb-0">From your account dashboard. you can easily check & view your recent orders, manage your shipping and billing addresses and edit your password and account details.</p>
                                             </div>
+                                            <div className="myaccount-content">
+                                                <h3>Total Sale <strong>40</strong></h3>
+                                                <table className="table table-bordered">
+                                                        <thead className="thead-light">
+                                                            <tr>
+                                                                <th>Order</th>
+                                                                <th>Date</th>
+                                                                <th>Status</th>
+                                                                <th>Total</th>
+                                                                <th>Action</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>1</td>
+                                                                <td>Aug 22, 2018</td>
+                                                                <td>Pending</td>
+                                                                <td>$3000</td>
+                                                                <td><a href="cart.html" className="check-btn sqr-btn ">View</a></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>2</td>
+                                                                <td>July 22, 2018</td>
+                                                                <td>Approved</td>
+                                                                <td>$200</td>
+                                                                <td><a href="cart.html" className="check-btn sqr-btn ">View</a></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>3</td>
+                                                                <td>June 12, 2017</td>
+                                                                <td>On Hold</td>
+                                                                <td>$990</td>
+                                                                <td><a href="cart.html" className="check-btn sqr-btn ">View</a></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                            </div>
+                                            <div className="myaccount-content">
+                                                <h3>Total Income <strong>$40</strong></h3>
+                                                <table className="table table-bordered">
+                                                        <thead className="thead-light">
+                                                            <tr>
+                                                                <th>Order</th>
+                                                                <th>Date</th>
+                                                                <th>Status</th>
+                                                                <th>Total</th>
+                                                                <th>Action</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>1</td>
+                                                                <td>Aug 22, 2018</td>
+                                                                <td>Pending</td>
+                                                                <td>$3000</td>
+                                                                <td><a href="cart.html" className="check-btn sqr-btn ">View</a></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>2</td>
+                                                                <td>July 22, 2018</td>
+                                                                <td>Approved</td>
+                                                                <td>$200</td>
+                                                                <td><a href="cart.html" className="check-btn sqr-btn ">View</a></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>3</td>
+                                                                <td>June 12, 2017</td>
+                                                                <td>On Hold</td>
+                                                                <td>$990</td>
+                                                                <td><a href="cart.html" className="check-btn sqr-btn ">View</a></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                            </div>
+
+                                        </div>
+                                       <div className="tab-pane fade show active" id="addProduct" role="tabpanel">
+                                            <div className="myaccount-content">
+                                                <h3>Add Product</h3>
+                                                <div className="welcome">
+                                                    <p>Hello, <strong>Alex Tuntuni</strong> (If Not <strong>Tuntuni !</strong><a href="login-register.html" className="logout"> Logout</a>)</p>
+                                                </div>
+                                                <p className="mb-0">From your account dashboard. you can easily check & view your recent orders, manage your shipping and billing addresses and edit your password and account details.</p>
+                                            </div>
+                                            <div className="myaccount-content">
+                                                <h3>Total Sale <strong>40</strong></h3>
+                                                <table className="table table-bordered">
+                                                        <thead className="thead-light">
+                                                            <tr>
+                                                                <th>Order</th>
+                                                                <th>Date</th>
+                                                                <th>Status</th>
+                                                                <th>Total</th>
+                                                                <th>Action</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>1</td>
+                                                                <td>Aug 22, 2018</td>
+                                                                <td>Pending</td>
+                                                                <td>$3000</td>
+                                                                <td><a href="cart.html" className="check-btn sqr-btn ">View</a></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>2</td>
+                                                                <td>July 22, 2018</td>
+                                                                <td>Approved</td>
+                                                                <td>$200</td>
+                                                                <td><a href="cart.html" className="check-btn sqr-btn ">View</a></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>3</td>
+                                                                <td>June 12, 2017</td>
+                                                                <td>On Hold</td>
+                                                                <td>$990</td>
+                                                                <td><a href="cart.html" className="check-btn sqr-btn ">View</a></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                            </div>
+                                            <div className="myaccount-content">
+                                                <h3>Total Income <strong>$40</strong></h3>
+                                                <table className="table table-bordered">
+                                                        <thead className="thead-light">
+                                                            <tr>
+                                                                <th>Order</th>
+                                                                <th>Date</th>
+                                                                <th>Status</th>
+                                                                <th>Total</th>
+                                                                <th>Action</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>1</td>
+                                                                <td>Aug 22, 2018</td>
+                                                                <td>Pending</td>
+                                                                <td>$3000</td>
+                                                                <td><a href="cart.html" className="check-btn sqr-btn ">View</a></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>2</td>
+                                                                <td>July 22, 2018</td>
+                                                                <td>Approved</td>
+                                                                <td>$200</td>
+                                                                <td><a href="cart.html" className="check-btn sqr-btn ">View</a></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>3</td>
+                                                                <td>June 12, 2017</td>
+                                                                <td>On Hold</td>
+                                                                <td>$990</td>
+                                                                <td><a href="cart.html" className="check-btn sqr-btn ">View</a></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                            </div>
+
                                         </div>
                                         <div className="tab-pane fade" id="orders" role="tabpanel">
                                             <div className="myaccount-content">
@@ -56,29 +214,39 @@ const Section = () => {
                                             </div>
                                         </div>                                        <div className="tab-pane fade" id="download" role="tabpanel">
                                             <div className="myaccount-content">
-                                                <h3>Downloads</h3>
+                                                <h3>My Products</h3>
                                                 <div className="myaccount-table table-responsive text-center">
-                                                    <table className="table table-bordered">
+                                                <table className="table table-bordered">
                                                         <thead className="thead-light">
                                                             <tr>
-                                                                <th>Product</th>
+                                                                <th>Order</th>
                                                                 <th>Date</th>
-                                                                <th>Expire</th>
-                                                                <th>Download</th>
+                                                                <th>Status</th>
+                                                                <th>Total</th>
+                                                                <th>Action</th>
                                                             </tr>
                                                         </thead>
                                                         <tbody>
                                                             <tr>
-                                                                <td>Haven - Free Real Estate PSD Template</td>
+                                                                <td>1</td>
                                                                 <td>Aug 22, 2018</td>
-                                                                <td>Yes</td>
-                                                                <td><a href="#" className="check-btn sqr-btn "><i className="fa fa-cloud-download"></i> Download File</a></td>
+                                                                <td>Pending</td>
+                                                                <td>$3000</td>
+                                                                <td><a href="cart.html" className="check-btn sqr-btn ">View</a></td>
                                                             </tr>
                                                             <tr>
-                                                                <td>HasTech - Profolio Business Template</td>
-                                                                <td>Sep 12, 2018</td>
-                                                                <td>Never</td>
-                                                                <td><a href="#" className="check-btn sqr-btn "><i className="fa fa-cloud-download"></i> Download File</a></td>
+                                                                <td>2</td>
+                                                                <td>July 22, 2018</td>
+                                                                <td>Approved</td>
+                                                                <td>$200</td>
+                                                                <td><a href="cart.html" className="check-btn sqr-btn ">View</a></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>3</td>
+                                                                <td>June 12, 2017</td>
+                                                                <td>On Hold</td>
+                                                                <td>$990</td>
+                                                                <td><a href="cart.html" className="check-btn sqr-btn ">View</a></td>
                                                             </tr>
                                                         </tbody>
                                                     </table>

@@ -1,18 +1,21 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-const TableHeader = () => {
+const TableHeader = props => {
+  const { list } = props;
   return (
     <thead>
       <tr>
-        <th>Image</th>
-        <th>Product Name</th>
-        <th>Until Price</th>
-        <th>Qty</th>
-        <th>Subtotal</th>
-        <th>action</th>
+        {list.map((item, i) => (
+          <th key={i}>{item}</th>
+        ))}
       </tr>
     </thead>
   );
+};
+
+TableHeader.propTypes = {
+  list: PropTypes.array.isRequired
 };
 
 export default TableHeader;

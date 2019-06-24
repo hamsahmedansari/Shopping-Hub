@@ -11,7 +11,20 @@ class MyAccount extends Component {
   render() {
     return (
       <React.Fragment>
-        <Breadcrumb />
+        <Breadcrumb
+          title="Profile"
+          breadcrumbs={[
+            {
+              link: "/",
+              text: "Home"
+            },
+            {
+              link: "/profile",
+              text: "Profile"
+            }
+          ]}
+          image={false}
+        />
         <div className="my-account-wrapper pt-100 pb-100">
           <div className="container">
             <div className="row">

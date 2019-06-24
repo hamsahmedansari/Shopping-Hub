@@ -12,9 +12,30 @@ class Cart extends Component {
     this.state = {};
   }
   render() {
+    const header = [
+      "Image",
+      "Product Name",
+      "Until Price",
+      "Qty",
+      "Subtotal",
+      "action"
+    ];
     return (
       <React.Fragment>
-        <Breadcrumb />
+        <Breadcrumb
+          title="Cart"
+          breadcrumbs={[
+            {
+              link: "/",
+              text: "Home"
+            },
+            {
+              link: "/cart",
+              text: "Cart"
+            }
+          ]}
+          image={false}
+        />
         <div className="cart-main-area pt-85 pb-90">
           <div className="container">
             <h3 className="cart-page-title">Your cart items</h3>
@@ -23,7 +44,7 @@ class Cart extends Component {
                 <form action="#">
                   <div className="table-content table-responsive cart-table-content">
                     <table>
-                      <TableHeader />
+                      <TableHeader list={header} />
                       <TableBody />
                     </table>
                   </div>

@@ -12,13 +12,13 @@ const Aside = () => {
           <i className="fa fa-cart-arrow-down" /> Orders
         </a>
         <a href="#download" data-toggle="tab">
-          <i className="fa fa-cloud-download" /> Download
+          <i className="fa fa-cloud-download" /> Products
+        </a>
+        <a href="#addProduct" data-toggle="tab">
+          <i className="fa fa-cloud-download" /> Add Products
         </a>
         <a href="#payment-method" data-toggle="tab">
           <i className="fa fa-credit-card" /> Payment Method
-        </a>
-        <a href="#address-edit" data-toggle="tab">
-          <i className="fa fa-map-marker" /> address
         </a>
         <a href="#account-info" data-toggle="tab">
           <i className="fa fa-user" /> Account Details
