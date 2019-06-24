@@ -16,7 +16,20 @@ class About extends Component {
   render() {
     return (
       <React.Fragment>
-        <Breadcrumb />
+        <Breadcrumb
+          title="About"
+          breadcrumbs={[
+            {
+              link: "/",
+              text: "Home"
+            },
+            {
+              link: "/about",
+              text: "About"
+            }
+          ]}
+          image={false}
+        />
         <Welcome />
         <Feature />
         <Banner />
