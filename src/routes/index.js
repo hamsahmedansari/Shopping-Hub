@@ -12,6 +12,7 @@ import Wishlist from "../screens/Wishlist";
 import MyAccount from "../screens/MyAccount";
 import Contact from "../screens/Contact";
 import LoginRegister from "../screens/LoginRegister";
+import AdminDashboard from "../components/AdminDashboard";
 
 class Routing extends Component {
   // static propTypes = {
@@ -39,6 +40,7 @@ class Routing extends Component {
   render() {
     return (
       <Switch>
+        <Route path="/admin" exact component={AdminDashboard} />
         <Route path="/login" exact component={LoginRegister} />
         <Route path="/register" exact component={LoginRegister} />
         <Route path="/contact" exact component={Contact} />
