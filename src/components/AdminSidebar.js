@@ -41,7 +41,7 @@ const Sidebar = props => {
               class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav"
             >
               <span class="btn-icon-wrapper">
-                <i class="fa fa-ellipsis-v fa-w-6" />
+                <i class="fa fa-ellipsis-h" aria-hidden="true" />
               </span>
             </button>
           </span>
@@ -52,22 +52,22 @@ const Sidebar = props => {
               <li class="app-sidebar__heading">Overview</li>
               <li>
                 <a href="dashboard-boxes.html">
-                  <i class="metismenu-icon pe-7s-display2" />
+                  <i class="fa fa-slack metismenu-icon pe-7s-display2" />
                   Dashboard
                 </a>
               </li>
               <li>
                 <a href="dashboard-boxes.html">
-                  <i class="metismenu-icon pe-7s-display2" />
+                  <i class="fa fa-area-chart metismenu-icon pe-7s-display2" />
                   Analytics
                 </a>
               </li>
               <li class="app-sidebar__heading">Actions</li>
               <li>
                 <a href="#">
-                  <i class="metismenu-icon pe-7s-diamond" />
+                  <i class="fa fa-product-hunt metismenu-icon pe-7s-diamond" />
                   Products
-                  <i class="metismenu-state-icon pe-7s-angle-down caret-left" />
+                  <i class="fa fa-caret-down metismenu-icon pe-7s-display2" />{" "}
                 </a>
                 <ul>
                   <li>
@@ -92,9 +92,9 @@ const Sidebar = props => {
               </li>
               <li>
                 <a href="#">
-                  <i class="metismenu-icon pe-7s-car" />
+                  <i class="fa fa-user-o metismenu-icon pe-7s-car" />
                   Users
-                  <i class="metismenu-state-icon pe-7s-angle-down caret-left" />
+                  <i class="fa fa-caret-down metismenu-icon pe-7s-display2" />
                 </a>
                 <ul>
                   <li>
@@ -126,9 +126,9 @@ const Sidebar = props => {
 
               <li>
                 <a href="#">
-                  <i class="metismenu-icon pe-7s-car" />
-                  Orders
-                  <i class="metismenu-state-icon pe-7s-angle-down caret-left" />
+                  <i class="fa fa-first-order metismenu-icon pe-7s-car" />
+                  Order
+                  <i class="fa fa-caret-down metismenu-icon pe-7s-display2" />
                 </a>
                 <ul>
                   <li>
@@ -166,32 +166,32 @@ const Sidebar = props => {
               <li class="app-sidebar__heading">Design</li>
               <li>
                 <a href="dashboard-boxes.html">
-                  <i class="metismenu-icon pe-7s-display2" />
+                  <i class="fa fa-home metismenu-icon pe-7s-display2" />
                   HomePage
                 </a>
               </li>
               <li>
                 <a href="dashboard-boxes.html">
-                  <i class="metismenu-icon pe-7s-display2" />
+                  <i class="fa fa-medium metismenu-icon pe-7s-display2" />
                   About
                 </a>
               </li>
               <li class="app-sidebar__heading">Utility</li>
               <li>
                 <a href="dashboard-boxes.html">
-                  <i class="metismenu-icon pe-7s-display2" />
+                  <i class="fa fa-cog metismenu-icon pe-7s-display2" />
                   Setting
                 </a>
               </li>
               <li>
                 <a href="dashboard-boxes.html">
-                  <i class="metismenu-icon pe-7s-display2" />
+                  <i class="fa fa-cog metismenu-icon pe-7s-display2" />
                   Admin Panel Setting
                 </a>
               </li>
               <li>
                 <a href="dashboard-boxes.html">
-                  <i class="metismenu-icon pe-7s-display2" />
+                  <i class="fa fa-sign-out metismenu-icon pe-7s-display2" />
                   Logout
                 </a>
               </li>
