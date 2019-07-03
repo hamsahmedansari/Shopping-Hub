@@ -51,16 +51,16 @@ const Sidebar = props => {
             <ul class="vertical-nav-menu">
               <li class="app-sidebar__heading">Overview</li>
               <li>
-                <a href="dashboard-boxes.html">
+                <Link to="/admin/dashboard">
                   <i class="fa fa-slack metismenu-icon pe-7s-display2" />
                   Dashboard
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="dashboard-boxes.html">
+                <Link to="/admin/analytics">
                   <i class="fa fa-area-chart metismenu-icon pe-7s-display2" />
                   Analytics
-                </a>
+                </Link>
               </li>
               <li class="app-sidebar__heading">Actions</li>
               <li>
@@ -71,22 +71,22 @@ const Sidebar = props => {
                 </a>
                 <ul>
                   <li>
-                    <a href="elements-buttons-standard.html">
+                    <Link to="/admin/products/list">
                       <i class="metismenu-icon" />
                       List
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="elements-dropdowns.html">
+                    <Link to="/admin/products/draft">
                       <i class="metismenu-icon" />
                       Draft
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="elements-icons.html">
+                    <Link to="/admin/product/add">
                       <i class="metismenu-icon" />
                       Add Product
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -98,28 +98,28 @@ const Sidebar = props => {
                 </a>
                 <ul>
                   <li>
-                    <a href="components-tabs.html">
+                    <Link to="/admin/users/list">
                       <i class="metismenu-icon" />
                       List
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="components-accordions.html">
+                    <Link to="/admin/users/add">
                       <i class="metismenu-icon" />
                       Add
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="components-notifications.html">
+                    <Link to="/admin/users/admins">
                       <i class="metismenu-icon" />
                       Admins
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="components-modals.html">
+                    <Link to="/admin/users/pending">
                       <i class="metismenu-icon" />
                       Pending
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -132,68 +132,68 @@ const Sidebar = props => {
                 </a>
                 <ul>
                   <li>
-                    <a href="components-tabs.html">
+                    <Link to="/admin/orders/list">
                       <i class="metismenu-icon" />
                       List
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="components-notifications.html">
+                    <Link to="/admin/orders/tracking">
                       <i class="metismenu-icon" />
                       Tracking
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="components-modals.html">
+                    <Link to="/admin/orders/pending">
                       <i class="metismenu-icon" />
                       Pending
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="components-modals.html">
+                    <Link to="/admin/orders/new">
                       <i class="metismenu-icon" />
                       New
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="components-modals.html">
+                    <Link to="/admin/orders/complete">
                       <i class="metismenu-icon" />
                       Complete
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li class="app-sidebar__heading">Design</li>
               <li>
-                <a href="dashboard-boxes.html">
+                <Link to="/admin/design/homepage">
                   <i class="fa fa-home metismenu-icon pe-7s-display2" />
                   HomePage
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="dashboard-boxes.html">
+                <Link to="/admin/design/about">
                   <i class="fa fa-medium metismenu-icon pe-7s-display2" />
                   About
-                </a>
+                </Link>
               </li>
               <li class="app-sidebar__heading">Utility</li>
               <li>
-                <a href="dashboard-boxes.html">
+                <Link to="/admin/setting">
                   <i class="fa fa-cog metismenu-icon pe-7s-display2" />
                   Setting
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="dashboard-boxes.html">
+                <Link to="/admin/setting/admin">
                   <i class="fa fa-cog metismenu-icon pe-7s-display2" />
                   Admin Panel Setting
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="dashboard-boxes.html">
+                <Link to="/admin/logout">
                   <i class="fa fa-sign-out metismenu-icon pe-7s-display2" />
                   Logout
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
