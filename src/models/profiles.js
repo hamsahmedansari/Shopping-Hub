@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 const validator = require("validator");
 const bcrypt = require("bcrypt");
+const jwt = require("jsonwebtoken");
 
 const profileSchema = new mongoose.Schema({
   firstName: {
@@ -62,6 +63,17 @@ profileSchema.statics.findByCredentials = async (email, password) => {
   }
 
   return profile;
+};
+
+profileSchema.methods.generateAuthToken = async function() {
+  const profile = this;
+
+  const token = jwt.sign(
+    { _id: profile._id.toString() },
+    "qepcEIlAW5go7ViRJdDo"
+  );
+
+  return token;
 };
 
 const Profiles = mongoose.model("Profiles", profileSchema);
