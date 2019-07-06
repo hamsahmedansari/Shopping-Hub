@@ -12,7 +12,7 @@ routes.post("/", async (req, res) => {
   }
 });
 // Login Users
-routes.post("/login", auth, async (req, res) => {
+routes.post("/login", async (req, res) => {
   try {
     const profile = await Profiles.findByCredentials(
       req.body.email,
